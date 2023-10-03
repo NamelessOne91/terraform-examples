@@ -10,11 +10,11 @@ variable "vpc_cidr_block" {
     type = string
 }
 
-variable "vpc_azs" {
-    default = ["eu-west-1a", "eu-west-1b"]
-    description = "VPC availability zones"
-    type = list(string)
-}
+# variable "vpc_azs" {
+#     default = ["eu-west-1a", "eu-west-1b"]
+#     description = "VPC availability zones"
+#     type = list(string)
+# }
 
 variable "vpc_public_subnets" {
     default = ["10.0.101.0/24", "10.0.102.0/24"]
